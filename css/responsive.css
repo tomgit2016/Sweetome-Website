@@ -1,0 +1,35 @@
+/* Mobile devices */
+@media (max-width: 576px) {
+    .hero-section {
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .hero-buttons .btn {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .feature-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-height: 50px;
+    }
+
+    .hero-section {
+        padding: 80px 0;
+    }
+}
+
+/* Small laptops */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+} 
