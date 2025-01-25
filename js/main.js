@@ -31,4 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
             form.classList.add('was-validated');
         }, false);
     });
+});
+
+// Set copyright year dynamically
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('copyright-year').textContent = new Date().getFullYear();
 }); 
