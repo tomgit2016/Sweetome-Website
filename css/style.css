@@ -16,9 +16,19 @@ html, body {
 }
 
 .container {
-    max-width: 100%;
+    max-width: 1200px;  /* Set a max-width */
+    margin-left: auto;   /* Center the container */
+    margin-right: auto;  /* Center the container */
     padding-left: 15px;
     padding-right: 15px;
+    width: 100%;
+}
+
+/* For larger screens */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;  /* Bootstrap's default large container width */
+    }
 }
 
 body {
@@ -57,7 +67,7 @@ body {
     background-repeat: no-repeat;
     min-height: 70vh;
     color: white;
-    padding: 120px 0;
+    padding: 170px 0;
     margin-top: -80px;
     position: relative;
 }

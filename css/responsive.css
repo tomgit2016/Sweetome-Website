@@ -4,7 +4,6 @@
         padding-left: 15px;
         padding-right: 15px;
         width: 100%;
-        max-width: 100%;
     }
 
     .row {
@@ -82,5 +81,30 @@
 @media (max-width: 992px) {
     .navbar-nav {
         text-align: center;
+    }
+}
+
+/* Add container widths for different breakpoints */
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
     }
 } 
