@@ -1,8 +1,47 @@
 /* Mobile devices */
 @media (max-width: 576px) {
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-toggler {
+        padding: 8px 12px;
+    }
+
+    .navbar-collapse {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     .hero-section {
         text-align: center;
-        padding: 60px 0;
+        padding: 80px 0 60px 0; /* Increased top padding from 100px to 140px */
+        min-height: auto; /* Allow content to determine height on mobile */
+    }
+
+    .hero-section .container {
+        padding-top: 5px; /* Reduced padding for container */
+    }
+
+    .hero-section h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        margin-top: 10px; /* Reduced top margin */
+    }
+
+    .hero-section .lead {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .page-header .display-4 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .page-header .lead {
+        font-size: 1.1rem;
     }
 
     .hero-buttons .btn {
@@ -23,7 +62,7 @@
     }
 
     .hero-section {
-        padding: 80px 0;
+        padding: 120px 0 80px 0; /* Adjusted padding for tablets */
     }
 }
 
