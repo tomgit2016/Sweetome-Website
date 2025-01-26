@@ -1,5 +1,17 @@
 /* Mobile devices */
 @media (max-width: 576px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .navbar {
         padding-top: 15px;
         padding-bottom: 15px;
